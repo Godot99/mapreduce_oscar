@@ -26,5 +26,5 @@ for line in sys.stdin:
 
 # Escribe o último par, unha vez rematado o bucle
 if oldKey != None:
-    print(oldKey, "\t", salesTotal)
+    print("Máximo", "\t", salesTotal)
 
